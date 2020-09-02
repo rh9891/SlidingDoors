@@ -104,5 +104,26 @@ button {
 }
 
 .forgottenPasswordText:hover {
-    color: red;
+    color: purple;
+}
+
+.socialMedia {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.socialMedia ul {
+    list-style: none;
+}
+
+.socialMedia ul li {
+    display: inline-block;
+    cursor: pointer;
+    margin: 25px 15px;
+}
+
+.socialMedia img {
+    width: 40px;
+    height: 40px;
 }
