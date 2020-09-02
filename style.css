@@ -11,6 +11,7 @@ body {
     justify-content: center;
     align-items: center;
     background: -webkit-linear-gradient(left, #7579ff, #b224ef);
+    font-family: "Nunito", sans-serif;
 }
 
 input, button {
@@ -66,4 +67,5 @@ input {
     padding-bottom: 5px;
     border-bottom: 1px solid rgba(109, 93, 93, 0.4);
     text-align: center;
+    font-family: "Nunito", sans-serif;
 }
