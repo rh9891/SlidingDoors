@@ -89,3 +89,20 @@ button {
     font-family: "Nunito", sans-serif;
     background: -webkit-linear-gradient(left, #7579ff, #b224ef);
 }
+
+.submit:hover {
+    background: -webkit-linear-gradient(left, #b224ef, #7579ff);
+}
+
+.forgottenPasswordText {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    color: #0c0101;
+    cursor: pointer;
+}
+
+.forgottenPasswordText:hover {
+    color: red;
+}
