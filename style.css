@@ -12,3 +12,17 @@ body {
     align-items: center;
     background: -webkit-linear-gradient(left, #7579ff, #b224ef);
 }
+
+input, button {
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.container {
+    overflow: hidden;
+    position: relative;
+    width: 900px;
+    height: 550px;
+    background: #fff;
+}
