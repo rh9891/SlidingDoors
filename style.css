@@ -37,3 +37,23 @@ input, button {
     transition: transform 1.2s ease-in-out;
     transition: transform 1.2s ease-in-out, -webkit-transform 1.2s ease-in-out;
 }
+
+h2 {
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    width: 260px;
+    margin: 25px auto;
+    text-align: center;
+}
+
+label span {
+    font-size: 14px;
+    font-weight: 600;
+    color: #505f75;
+    text-transform: uppercase;
+}
