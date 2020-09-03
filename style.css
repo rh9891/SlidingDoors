@@ -1,7 +1,8 @@
 *, *:before, *:after {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; 
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
 }
 
 body {
@@ -48,7 +49,7 @@ h2 {
 label {
     display: block;
     width: 260px;
-    margin: 25px auto;
+    margin: 25px auto 0;
     text-align: center;
 }
 
@@ -142,6 +143,11 @@ button {
      transition: transform 1.2s ease-in-out;
 }
 
+.container.s-signup .subContainer {
+    -webkit-transform: translate3d(-640px, 0, 0);
+            transform: translate3d(-640px, 0, 0);
+}
+
 .img {
     overflow: hidden;
     z-index: 2;
@@ -176,6 +182,11 @@ button {
     background: rgba(0, 0, 0, 0.3);
 }
 
+.container.s-signup .img:before {
+    -webkit-transform: translate3d(640px, 0, 0);
+            transform: translate3d(640px, 0, 0);
+}
+
 .imgText {
     z-index: 2;
     position: absolute;
@@ -200,10 +211,34 @@ button {
     line-height: 1.5;
 }
 
+.container.s-signup .imgText.buttonUp {
+    -webkit-transform: translateX(520px);
+            transform: translateX(520px);
+}
+
+.imgText.buttonIn {
+    -webkit-transform: translateX(-520px);
+            transform: translateX(-520px);
+}
+
+.container.s-signup .imgText.buttonIn {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+}
+
 .signIn {
     padding-top: 65px;
     -webkit-transition-timing-function: ease-out;
             transition-timing-function: ease-out;
+}
+
+.container.s-signup .signIn {
+    -webkit-transition-timing-function: ease-in-out;
+            transition-timing-function: ease-in-out;
+    -webkit-transition-duration: 1.2s;
+            transition-duration: 1.2s;
+    -webkit-transform: translate3d(640px, 0, 0);
+            transform: translate3d(640px, 0, 0);
 }
 
 .imgButton {
@@ -247,4 +282,29 @@ button {
     transition: -webkit-transform 1.2s;
     transition: transform 1.2s;
     transition: transform 1.2s, -webkit-transform 1.2s;
+}
+
+.imgButton span.buttonIn {
+    -webkit-transform: translateY(-72px);
+            transform: translateY(-72px);
+}
+
+.container.s-signup .imgButton span.buttonIn {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+}
+
+.container.s-signup .imgButton span.buttonUp {
+    -webkit-transform: translateY(72px);
+            transform: translateY(72px);
+}
+
+.signUp {
+    -webkit-transform: translate3d(-900px, 0, 0);
+            transform: translate3d(-900px, 0, 0);
+}
+
+.container .s-signup .signUp {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
 }
