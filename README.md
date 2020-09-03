@@ -43,7 +43,7 @@ THEN the page will toggle to the Sign In page.
 
 The following animation demonstrates the application functionality:
 
-![Sliding Doors](images/slidingDoorsPreview.gif)
+![Sliding Doors](https://github.com/rh9891/SlidingDoors/blob/master/images/slidingDoorsPreview.gif)
 
 ## Links
 - [Deployed Application](https://rh9891.github.io/SlidingDoors)
