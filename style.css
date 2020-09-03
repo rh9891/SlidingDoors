@@ -188,5 +188,14 @@ button {
     -webkit-transition: -webkit-transform 1.2s ease-in-out;
     transition: -webkit-transform 1.2s ease-in-out;
     transition: transform 1.2s ease-in-out, -webkit-transform 1.2s ease-in-out;
+}
 
+.imgText h2 {
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+
+.imgText p {
+    font-size: 14px;
+    line-height: 1.5;
 }
