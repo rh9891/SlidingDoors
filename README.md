@@ -14,9 +14,9 @@
 
 ## Description
 
-Sliding Doors is a dynamic, animated login form, where the user is able to toggle between the sign in page and sign up page. The switch between the login and register forms is animated as both forms will exchange their positions dependent on how the user interacts with the application.
+Sliding Doors is a dynamic, animated login form, where the user is able to toggle between the Sign In page and Sign Up page. The switch between the login and register forms is animated as both forms will exchange their positions dependent on how the user interacts with the application.
 
-Sliding Doors features HTML, CSS, and the use of event listeners with Javascript, so that when certain buttons are clicked, a transition occurs between the sign up page and the sign in page.
+Sliding Doors features HTML, CSS, and the use of event listeners with Javascript, so that when certain buttons are clicked, a transition occurs between the Sign Up page and the Sign In page.
 
 ## User Story
 ~~~
@@ -36,6 +36,10 @@ THEN the page will toggle to the Sign In page.
 ~~~
 
 ## Preview of Sliding Doors
+
+![Sign In Page Preview](images/signInPagePreview.png)
+
+![Sign Up Page Preview](images/signUpPagePreview.png)
 
 The following animation demonstrates the application functionality:
 
